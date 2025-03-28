@@ -5,7 +5,6 @@ import assert from "assert";
 const pako = require("pako");
 
 const { Base58, BufferReader, BufferWriter } = utils;
-
 (async () => {
   const blockHex = fs.readFileSync(path.join(__dirname, "./block.dat"), "utf8");
   const blockBuf = Buffer.from(blockHex, "hex");
@@ -19,7 +18,7 @@ const { Base58, BufferReader, BufferWriter } = utils;
 
   assert.equal(
     block.getHash().toString("hex"),
-    "0000000000000000065f5cd65ab43226317d3b1966eb9bf057467d156d34782f"
+    "5a1ce32fcbc95f55cb5f4f196c403c7f29881c73cddea66f7a2a3ce641f6e7db10ea0bedaac0146495239f2a1943d70e05a9e56dea8ac728391abcc2fd62260e"
   );
   assert.equal(
     block.header?.prevHash.toString("hex"),
@@ -27,12 +26,12 @@ const { Base58, BufferReader, BufferWriter } = utils;
   );
   assert.equal(
     block.getHash(true),
-    "0000000000000000065f5cd65ab43226317d3b1966eb9bf057467d156d34782f"
+    "5a1ce32fcbc95f55cb5f4f196c403c7f29881c73cddea66f7a2a3ce641f6e7db10ea0bedaac0146495239f2a1943d70e05a9e56dea8ac728391abcc2fd62260e"
   );
   assert(
     Buffer.compare(
       Buffer.from(
-        "0000000000000000065f5cd65ab43226317d3b1966eb9bf057467d156d34782f",
+        "5a1ce32fcbc95f55cb5f4f196c403c7f29881c73cddea66f7a2a3ce641f6e7db10ea0bedaac0146495239f2a1943d70e05a9e56dea8ac728391abcc2fd62260e",
         "hex"
       ),
       block.getHash()
@@ -68,16 +67,16 @@ const { Base58, BufferReader, BufferWriter } = utils;
 
   assert.equal(
     block.getTransactions()[0].getHash().toString("hex"),
-    "70932f8bf487093ae0c8cd4f1d96d09d3fcdbd62d7928adb284cf32ddff17c08"
+    "641095735b854bb5159afee41e85d6522eee71090671c488d35ec933414439cfeb0f2fed6590343887acc592cdbd096b4520a9fd67f0e03f88b19797fbe36bab"
   );
   assert.equal(
     block.getTransactions()[0].getTxid(),
-    "70932f8bf487093ae0c8cd4f1d96d09d3fcdbd62d7928adb284cf32ddff17c08"
+    "641095735b854bb5159afee41e85d6522eee71090671c488d35ec933414439cfeb0f2fed6590343887acc592cdbd096b4520a9fd67f0e03f88b19797fbe36bab"
   );
   assert(
     Buffer.compare(
       Buffer.from(
-        "70932f8bf487093ae0c8cd4f1d96d09d3fcdbd62d7928adb284cf32ddff17c08",
+        "641095735b854bb5159afee41e85d6522eee71090671c488d35ec933414439cfeb0f2fed6590343887acc592cdbd096b4520a9fd67f0e03f88b19797fbe36bab",
         "hex"
       ),
       block.getTransactions()[0].getHash()

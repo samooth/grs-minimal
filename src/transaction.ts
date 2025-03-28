@@ -159,10 +159,10 @@ export default class Transaction {
     if (!this.hash) {
       if (this.segwitFlag) {
         const buf = this.toTxBuffer();
-        this.hash = Hash.sha256sha256(buf).reverse();
+        this.hash = Hash.grs512d(buf).reverse();
       } else {
         const buf = this.toBuffer();
-        this.hash = Hash.sha256sha256(buf).reverse();
+        this.hash = Hash.grs512d(buf).reverse();
       }
     }
     return this.hash;
@@ -178,7 +178,7 @@ export default class Transaction {
   getWTxid() {
     if (this.segwitItems) {
       const buf = this.toBuffer();
-      return Hash.sha256sha256(buf).reverse().toString("hex");
+      return Hash.grs512d(buf).reverse().toString("hex");
     } else {
       return this.getTxid();
     }

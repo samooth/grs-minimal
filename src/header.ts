@@ -1,5 +1,6 @@
 import { BufferReader, BufferChunksReader, Hash } from "./utils";
 
+
 export default class Header {
   version: Buffer;
   prevHash: Buffer;
@@ -49,9 +50,9 @@ export default class Header {
   getHash(hexStr = false): string | Buffer {
     if (!this.hash) {
       const buf = this.toBuffer();
-      this.hash = Hash.sha256sha256(buf).reverse();
+      this.hash = Hash.grs512d(buf).reverse();
     }
-
+    // @ts-ignore
     return hexStr ? this.hash.toString("hex") : this.hash;
   }
 }

@@ -1,5 +1,13 @@
 import crypto from "crypto";
+import { groestl512 } from 'hashes-grs/groestl512'
 
+function grs512(buf: Buffer){
+  return Buffer.from(groestl512(buf))
+}
+
+function grs512d(buf: Buffer){
+  return Buffer.from(groestl512(groestl512(buf)))
+}
 function sha256(buf: Buffer) {
   return crypto.createHash("sha256").update(buf).digest();
 }
@@ -21,6 +29,8 @@ const Hash = {
   sha256sha256,
   ripemd160,
   sha256ripemd160,
+  grs512,
+  grs512d
 };
 
 export default Hash;

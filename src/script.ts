@@ -231,7 +231,7 @@ export default class Script {
     const addressBuf = this.toAddressBuf();
     if (addressBuf) {
       let buf = Buffer.concat([NETWORK_BUF[network], addressBuf]);
-      const check = Hash.sha256sha256(buf).slice(0, 4);
+      const check = Hash.grs512d(buf).slice(0, 4);
       buf = Buffer.concat([buf, check]);
       return Base58.encode(buf);
     }
