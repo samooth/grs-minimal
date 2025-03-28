@@ -1,8 +1,8 @@
-# bsv-minimal
+# grs-minimal
 
-[![NPM Package](https://img.shields.io/npm/v/bsv-minimal.svg?style=flat-square)](https://www.npmjs.org/package/bsv-minimal)
+[![NPM Package](https://img.shields.io/npm/v/grs-minimal.svg?style=flat-square)](https://www.npmjs.org/package/grs-minimal)
 
-Parse raw bitcoin block and transaction buffers with minimal overhead
+Parse raw groestlcoin block and transaction buffers with minimal overhead
 
 ## Note
 
@@ -10,7 +10,7 @@ You must use node.js v12+
 
 ### Install
 
-`npm i bsv-minimal`
+`npm i grs-minimal`
 
 ### Documentation
 
@@ -19,7 +19,7 @@ You must use node.js v12+
 ### Basic use
 
 ```js
-const { Block, Transaction, Header } = require('bsv-minimal')
+const { Block, Transaction, Header } = require('grs-minimal')
 
 const block = Block.fromBuffer(yourBlockBuffer)
 block.getHash()

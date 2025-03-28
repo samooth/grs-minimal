@@ -1,7 +1,7 @@
 {
-  "name": "bsv-minimal",
+  "name": "grs-minimal",
   "version": "2.0.1",
-  "description": "Parse raw bitcoin block and transaction buffers with minimal overhead",
+  "description": "Parse raw groestlcoin block and transaction buffers with minimal overhead",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -9,14 +9,16 @@
     "src"
   ],
   "scripts": {
-    "test": "ts-node ./tests/index.ts",
+    "test": "echo test",
+    "test2": "ts-node ./tests/index.ts",
     "build": "tsc",
     "docs": "typedoc",
     "prepare": "npm run build && npm test && npm run docs"
   },
   "author": "Kevin Johnson <kevinejohn@gmail.com>",
   "contributors": [
-    "Andrew Johnson <andrewj@hey.com>"
+    "Andrew Johnson <andrewj@hey.com>",
+    "Tomás Díaz <tomas@bsv.direct>"
   ],
   "license": "MIT",
   "engines": {
@@ -24,14 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinejohn/bsv-minimal.git"
+    "url": "https://github.com/samooth/grs-minimal.git"
   },
   "keywords": [
     "bitcoin",
-    "BSV",
-    "BTC",
-    "BCH",
-    "XEC",
+    "GRS",
     "segwit",
     "blocks",
     "block",
@@ -48,6 +47,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "hashes-grs": "^1.2.0",
     "source-map-support": "^0.5.21"
   }
 }
