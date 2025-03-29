@@ -1,6 +1,6 @@
 {
   "name": "grs-minimal",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Parse raw groestlcoin block and transaction buffers with minimal overhead",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

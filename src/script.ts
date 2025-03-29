@@ -1,8 +1,10 @@
 import { BufferReader, Opcode, Hash, Base58 } from "./utils";
 
 const NETWORK_BUF = {
-  testnet: Buffer.from([0x6f]),
-  mainnet: Buffer.from([0x00]),
+  testnet: Buffer.from([0x6F]),
+  mainnet: Buffer.from([0x24]),
+  regtest: Buffer.from([0x6F]),
+  signet: Buffer.from([0x6F])
 };
 
 export interface ScriptInitOptions {
