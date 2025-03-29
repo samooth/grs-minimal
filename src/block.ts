@@ -148,7 +148,7 @@ export default class Block {
         const second = merkleArray[height].shift() || first;
         if (first && second) {
           const concat = Buffer.concat([first, second]);
-          const hash = Hash.grs512d(concat);
+          const hash = Hash.sha256sha256(concat);
           if (!merkleArray[height + 1]) merkleArray.push([]);
           merkleArray[height + 1].push(hash);
           calculate(height + 1);

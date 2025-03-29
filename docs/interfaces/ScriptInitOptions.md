@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / ScriptInitOptions
+[grs-minimal](../README.md) / ScriptInitOptions
 
 # Interface: ScriptInitOptions
 
@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[script.ts:9](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L9)
+[script.ts:9](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L9)

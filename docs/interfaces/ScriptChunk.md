@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / ScriptChunk
+[grs-minimal](../README.md) / ScriptChunk
 
 # Interface: ScriptChunk
 
@@ -14,11 +14,11 @@
 
 ### buf
 
-• `Optional` **buf**: `Buffer`
+• `Optional` **buf**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[script.ts:15](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L15)
+[script.ts:15](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L15)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[script.ts:14](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L14)
+[script.ts:14](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L14)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[script.ts:13](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L13)
+[script.ts:13](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L13)

@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / TransactionInput
+[grs-minimal](../README.md) / TransactionInput
 
 # Interface: TransactionInput
 
@@ -17,31 +17,31 @@
 
 ### prevTxId
 
-• **prevTxId**: `Buffer`
+• **prevTxId**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:11](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L11)
+[transaction.ts:11](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L11)
 
 ___
 
 ### scriptBuffer
 
-• **scriptBuffer**: `Buffer`
+• **scriptBuffer**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:10](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L10)
+[transaction.ts:10](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L10)
 
 ___
 
 ### segwitItems
 
-• `Optional` **segwitItems**: `Buffer`[]
+• `Optional` **segwitItems**: `Buffer`\<`ArrayBufferLike`\>[]
 
 #### Defined in
 
-[transaction.ts:14](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L14)
+[transaction.ts:14](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L14)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:13](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L13)
+[transaction.ts:13](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L13)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:9](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L9)
+[transaction.ts:9](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L9)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[transaction.ts:12](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L12)
+[transaction.ts:12](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L12)

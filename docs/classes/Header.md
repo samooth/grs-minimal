@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / Header
+[grs-minimal](../README.md) / Header
 
 # Class: Header
 
@@ -32,7 +32,7 @@
 
 ### constructor
 
-• `Private` **new Header**(`br`)
+• **new Header**(`br`): [`Header`](Header.md)
 
 #### Parameters
 
@@ -40,49 +40,53 @@
 | :------ | :------ |
 | `br` | [`BufferReader`](utils.BufferReader.md) \| [`BufferChunksReader`](utils.BufferChunksReader.md) |
 
+#### Returns
+
+[`Header`](Header.md)
+
 #### Defined in
 
-[header.ts:13](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L13)
+[header.ts:14](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L14)
 
 ## Properties
 
 ### bits
 
-• **bits**: `Buffer`
+• **bits**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:8](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L8)
+[header.ts:9](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L9)
 
 ___
 
 ### buffer
 
-• **buffer**: `Buffer`
+• **buffer**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:10](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L10)
+[header.ts:11](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L11)
 
 ___
 
 ### hash
 
-• `Optional` **hash**: `Buffer`
+• `Optional` **hash**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:11](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L11)
+[header.ts:12](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L12)
 
 ___
 
 ### merkleRoot
 
-• **merkleRoot**: `Buffer`
+• **merkleRoot**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:6](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L6)
+[header.ts:7](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L7)
 
 ___
 
@@ -92,17 +96,17 @@ ___
 
 #### Defined in
 
-[header.ts:9](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L9)
+[header.ts:10](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L10)
 
 ___
 
 ### prevHash
 
-• **prevHash**: `Buffer`
+• **prevHash**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:5](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L5)
+[header.ts:6](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L6)
 
 ___
 
@@ -112,33 +116,33 @@ ___
 
 #### Defined in
 
-[header.ts:7](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L7)
+[header.ts:8](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L8)
 
 ___
 
 ### version
 
-• **version**: `Buffer`
+• **version**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:4](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L4)
+[header.ts:5](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L5)
 
 ## Methods
 
 ### getHash
 
-▸ **getHash**(): `Buffer`
+▸ **getHash**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:47](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L47)
+[header.ts:48](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L48)
 
-▸ **getHash**<`T`\>(`hexStr`): `T` extends ``true`` ? `string` : `Buffer`
+▸ **getHash**\<`T`\>(`hexStr`): `T` extends ``true`` ? `string` : `Buffer`\<`ArrayBufferLike`\>
 
 #### Type parameters
 
@@ -154,25 +158,25 @@ ___
 
 #### Returns
 
-`T` extends ``true`` ? `string` : `Buffer`
+`T` extends ``true`` ? `string` : `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:48](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L48)
+[header.ts:49](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L49)
 
 ___
 
 ### toBuffer
 
-▸ **toBuffer**(): `Buffer`
+▸ **toBuffer**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[header.ts:39](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L39)
+[header.ts:40](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L40)
 
 ___
 
@@ -186,19 +190,19 @@ ___
 
 #### Defined in
 
-[header.ts:43](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L43)
+[header.ts:44](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L44)
 
 ___
 
 ### fromBuffer
 
-▸ `Static` **fromBuffer**(`buf`): [`Header`](Header.md)
+▸ **fromBuffer**(`buf`): [`Header`](Header.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -206,13 +210,13 @@ ___
 
 #### Defined in
 
-[header.ts:24](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L24)
+[header.ts:25](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L25)
 
 ___
 
 ### fromBufferReader
 
-▸ `Static` **fromBufferReader**(`br`): [`Header`](Header.md)
+▸ **fromBufferReader**(`br`): [`Header`](Header.md)
 
 #### Parameters
 
@@ -226,13 +230,13 @@ ___
 
 #### Defined in
 
-[header.ts:29](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L29)
+[header.ts:30](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L30)
 
 ___
 
 ### fromHex
 
-▸ `Static` **fromHex**(`hex`): [`Header`](Header.md)
+▸ **fromHex**(`hex`): [`Header`](Header.md)
 
 #### Parameters
 
@@ -246,4 +250,4 @@ ___
 
 #### Defined in
 
-[header.ts:34](https://github.com/kevinejohn/bsv-minimal/blob/master/src/header.ts#L34)
+[header.ts:35](https://github.com/samooth/grs-minimal/blob/master/src/header.ts#L35)

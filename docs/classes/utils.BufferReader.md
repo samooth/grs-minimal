@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / [utils](../modules/utils.md) / BufferReader
+[grs-minimal](../README.md) / [utils](../modules/utils.md) / BufferReader
 
 # Class: BufferReader
 
@@ -41,27 +41,31 @@
 
 ### constructor
 
-• **new BufferReader**(`buf`)
+• **new BufferReader**(`buf`): [`BufferReader`](utils.BufferReader.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `string` \| [`BufferReaderProperties`](../interfaces/utils.BufferReaderProperties.md) \| `Buffer` |
+| `buf` | `string` \| [`BufferReaderProperties`](../interfaces/utils.BufferReaderProperties.md) \| `Buffer`\<`ArrayBufferLike`\> |
+
+#### Returns
+
+[`BufferReader`](utils.BufferReader.md)
 
 #### Defined in
 
-[utils/reader.ts:12](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L12)
+[utils/reader.ts:12](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L12)
 
 ## Properties
 
 ### buf
 
-• **buf**: `Buffer`
+• **buf**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[utils/reader.ts:9](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L9)
+[utils/reader.ts:9](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L9)
 
 ___
 
@@ -71,7 +75,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:10](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L10)
+[utils/reader.ts:10](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L10)
 
 ## Methods
 
@@ -85,7 +89,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:37](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L37)
+[utils/reader.ts:37](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L37)
 
 ___
 
@@ -99,13 +103,13 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:41](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L41)
+[utils/reader.ts:41](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L41)
 
 ___
 
 ### read
 
-▸ **read**(`len`): `Buffer`
+▸ **read**(`len`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -115,25 +119,25 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader.ts:45](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L45)
+[utils/reader.ts:45](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L45)
 
 ___
 
 ### readAll
 
-▸ **readAll**(): `Buffer`
+▸ **readAll**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader.ts:52](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L52)
+[utils/reader.ts:52](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L52)
 
 ___
 
@@ -147,13 +151,13 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:88](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L88)
+[utils/reader.ts:88](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L88)
 
 ___
 
 ### readReverse
 
-▸ **readReverse**(`len`): `Buffer`
+▸ **readReverse**(`len`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -163,11 +167,11 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader.ts:158](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L158)
+[utils/reader.ts:158](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L158)
 
 ___
 
@@ -181,7 +185,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:64](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L64)
+[utils/reader.ts:64](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L64)
 
 ___
 
@@ -195,7 +199,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:70](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L70)
+[utils/reader.ts:70](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L70)
 
 ___
 
@@ -209,7 +213,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:76](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L76)
+[utils/reader.ts:76](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L76)
 
 ___
 
@@ -223,7 +227,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:82](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L82)
+[utils/reader.ts:82](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L82)
 
 ___
 
@@ -237,7 +241,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:94](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L94)
+[utils/reader.ts:94](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L94)
 
 ___
 
@@ -251,7 +255,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:104](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L104)
+[utils/reader.ts:104](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L104)
 
 ___
 
@@ -265,7 +269,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:99](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L99)
+[utils/reader.ts:99](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L99)
 
 ___
 
@@ -279,7 +283,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:110](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L110)
+[utils/reader.ts:110](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L110)
 
 ___
 
@@ -293,21 +297,21 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:58](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L58)
+[utils/reader.ts:58](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L58)
 
 ___
 
 ### readVarLengthBuffer
 
-▸ **readVarLengthBuffer**(): `Buffer`
+▸ **readVarLengthBuffer**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader.ts:136](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L136)
+[utils/reader.ts:136](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L136)
 
 ___
 
@@ -321,7 +325,7 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:116](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L116)
+[utils/reader.ts:116](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L116)
 
 ___
 
@@ -335,13 +339,13 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:153](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L153)
+[utils/reader.ts:153](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L153)
 
 ___
 
 ### slice
 
-▸ **slice**(`i`, `j`): `Buffer`
+▸ **slice**(`i`, `j`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -352,8 +356,8 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader.ts:33](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L33)
+[utils/reader.ts:33](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L33)

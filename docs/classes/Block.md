@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / Block
+[grs-minimal](../README.md) / Block
 
 # Class: Block
 
@@ -43,7 +43,7 @@
 
 ### constructor
 
-• **new Block**(`options?`)
+• **new Block**(`options?`): [`Block`](Block.md)
 
 #### Parameters
 
@@ -51,9 +51,13 @@
 | :------ | :------ |
 | `options` | [`BlockOptions`](../interfaces/BlockOptions.md) |
 
+#### Returns
+
+[`Block`](Block.md)
+
 #### Defined in
 
-[block.ts:45](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L45)
+[block.ts:45](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L45)
 
 ## Properties
 
@@ -63,27 +67,27 @@
 
 #### Defined in
 
-[block.ts:41](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L41)
+[block.ts:41](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L41)
 
 ___
 
 ### buffer
 
-• `Optional` **buffer**: `Buffer`
+• `Optional` **buffer**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[block.ts:38](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L38)
+[block.ts:38](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L38)
 
 ___
 
 ### computedMerkleRoot
 
-• `Optional` **computedMerkleRoot**: `Buffer`
+• `Optional` **computedMerkleRoot**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[block.ts:40](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L40)
+[block.ts:40](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L40)
 
 ___
 
@@ -93,7 +97,7 @@ ___
 
 #### Defined in
 
-[block.ts:35](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L35)
+[block.ts:35](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L35)
 
 ___
 
@@ -103,17 +107,17 @@ ___
 
 #### Defined in
 
-[block.ts:42](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L42)
+[block.ts:42](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L42)
 
 ___
 
 ### merkleArray
 
-• **merkleArray**: `Buffer`[][]
+• **merkleArray**: `Buffer`\<`ArrayBufferLike`\>[][]
 
 #### Defined in
 
-[block.ts:34](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L34)
+[block.ts:34](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L34)
 
 ___
 
@@ -123,7 +127,7 @@ ___
 
 #### Defined in
 
-[block.ts:33](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L33)
+[block.ts:33](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L33)
 
 ___
 
@@ -133,7 +137,7 @@ ___
 
 #### Defined in
 
-[block.ts:32](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L32)
+[block.ts:32](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L32)
 
 ___
 
@@ -143,7 +147,7 @@ ___
 
 #### Defined in
 
-[block.ts:43](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L43)
+[block.ts:43](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L43)
 
 ___
 
@@ -153,7 +157,7 @@ ___
 
 #### Defined in
 
-[block.ts:39](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L39)
+[block.ts:39](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L39)
 
 ___
 
@@ -163,7 +167,7 @@ ___
 
 #### Defined in
 
-[block.ts:36](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L36)
+[block.ts:36](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L36)
 
 ___
 
@@ -173,7 +177,7 @@ ___
 
 #### Defined in
 
-[block.ts:37](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L37)
+[block.ts:37](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L37)
 
 ___
 
@@ -183,7 +187,7 @@ ___
 
 #### Defined in
 
-[block.ts:31](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L31)
+[block.ts:31](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L31)
 
 ## Methods
 
@@ -195,7 +199,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -203,7 +207,7 @@ ___
 
 #### Defined in
 
-[block.ts:212](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L212)
+[block.ts:212](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L212)
 
 ___
 
@@ -216,7 +220,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `index` | `number` |
-| `hash` | `Buffer` |
+| `hash` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -224,7 +228,7 @@ ___
 
 #### Defined in
 
-[block.ts:127](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L127)
+[block.ts:127](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L127)
 
 ___
 
@@ -238,23 +242,23 @@ ___
 
 #### Defined in
 
-[block.ts:205](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L205)
+[block.ts:205](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L205)
 
 ___
 
 ### getHash
 
-▸ **getHash**(): `Buffer`
+▸ **getHash**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[block.ts:69](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L69)
+[block.ts:69](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L69)
 
-▸ **getHash**<`T`\>(`hexStr`): `T` extends ``true`` ? `string` : `Buffer`
+▸ **getHash**\<`T`\>(`hexStr`): `T` extends ``true`` ? `string` : `Buffer`\<`ArrayBufferLike`\>
 
 #### Type parameters
 
@@ -270,11 +274,11 @@ ___
 
 #### Returns
 
-`T` extends ``true`` ? `string` : `Buffer`
+`T` extends ``true`` ? `string` : `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[block.ts:70](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L70)
+[block.ts:70](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L70)
 
 ___
 
@@ -288,7 +292,7 @@ ___
 
 #### Defined in
 
-[block.ts:94](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L94)
+[block.ts:94](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L94)
 
 ___
 
@@ -302,41 +306,41 @@ ___
 
 #### Defined in
 
-[block.ts:77](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L77)
+[block.ts:77](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L77)
 
 ___
 
 ### getTransactionsAsync
 
-▸ **getTransactionsAsync**(`callback`): `Promise`<`void`\>
+▸ **getTransactionsAsync**(`callback`): `Promise`\<`void`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | (`data`: [`BlockStream`](../README.md#blockstream)) => `void` \| `Promise`<`void`\> |
+| `callback` | (`data`: [`BlockStream`](../README.md#blockstream)) => `void` \| `Promise`\<`void`\> |
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
-[block.ts:161](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L161)
+[block.ts:161](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L161)
 
 ___
 
 ### toBuffer
 
-▸ **toBuffer**(): `Buffer`
+▸ **toBuffer**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[block.ts:196](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L196)
+[block.ts:196](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L196)
 
 ___
 
@@ -350,7 +354,7 @@ ___
 
 #### Defined in
 
-[block.ts:201](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L201)
+[block.ts:201](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L201)
 
 ___
 
@@ -364,19 +368,19 @@ ___
 
 #### Defined in
 
-[block.ts:108](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L108)
+[block.ts:108](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L108)
 
 ___
 
 ### fromBuffer
 
-▸ `Static` **fromBuffer**(`buf`): [`Block`](Block.md)
+▸ **fromBuffer**(`buf`): [`Block`](Block.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -384,13 +388,13 @@ ___
 
 #### Defined in
 
-[block.ts:53](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L53)
+[block.ts:53](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L53)
 
 ___
 
 ### fromHex
 
-▸ `Static` **fromHex**(`hex`): [`Block`](Block.md)
+▸ **fromHex**(`hex`): [`Block`](Block.md)
 
 #### Parameters
 
@@ -404,4 +408,4 @@ ___
 
 #### Defined in
 
-[block.ts:64](https://github.com/kevinejohn/bsv-minimal/blob/master/src/block.ts#L64)
+[block.ts:64](https://github.com/samooth/grs-minimal/blob/master/src/block.ts#L64)

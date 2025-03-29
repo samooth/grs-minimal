@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / Script
+[grs-minimal](../README.md) / Script
 
 # Class: Script
 
@@ -30,7 +30,7 @@
 
 ### constructor
 
-• `Private` **new Script**(`br`, `chunks`)
+• **new Script**(`br`, `chunks`): [`Script`](Script.md)
 
 #### Parameters
 
@@ -39,19 +39,23 @@
 | `br` | [`BufferReader`](utils.BufferReader.md) |
 | `chunks` | [`ScriptChunk`](../interfaces/ScriptChunk.md)[] |
 
+#### Returns
+
+[`Script`](Script.md)
+
 #### Defined in
 
-[script.ts:41](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L41)
+[script.ts:41](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L41)
 
 ## Properties
 
 ### buffer
 
-• **buffer**: `Buffer`
+• **buffer**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[script.ts:39](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L39)
+[script.ts:39](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L39)
 
 ___
 
@@ -61,13 +65,13 @@ ___
 
 #### Defined in
 
-[script.ts:38](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L38)
+[script.ts:38](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L38)
 
 ## Methods
 
 ### getBitcoms
 
-▸ **getBitcoms**(`options?`): `Set`<`string`\>
+▸ **getBitcoms**(`options?`): `Set`\<`string`\>
 
 #### Parameters
 
@@ -77,25 +81,25 @@ ___
 
 #### Returns
 
-`Set`<`string`\>
+`Set`\<`string`\>
 
 #### Defined in
 
-[script.ts:183](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L183)
+[script.ts:183](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L183)
 
 ___
 
 ### getOpReturn
 
-▸ **getOpReturn**(): `Buffer`[][]
+▸ **getOpReturn**(): `Buffer`\<`ArrayBufferLike`\>[][]
 
 #### Returns
 
-`Buffer`[][]
+`Buffer`\<`ArrayBufferLike`\>[][]
 
 #### Defined in
 
-[script.ts:126](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L126)
+[script.ts:126](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L126)
 
 ___
 
@@ -109,7 +113,7 @@ ___
 
 #### Defined in
 
-[script.ts:154](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L154)
+[script.ts:154](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L154)
 
 ___
 
@@ -129,35 +133,35 @@ ___
 
 #### Defined in
 
-[script.ts:230](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L230)
+[script.ts:230](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L230)
 
 ___
 
 ### toAddressBuf
 
-▸ **toAddressBuf**(): `undefined` \| `Buffer`
+▸ **toAddressBuf**(): `undefined` \| `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`undefined` \| `Buffer`
+`undefined` \| `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[script.ts:206](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L206)
+[script.ts:206](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L206)
 
 ___
 
 ### toBuffer
 
-▸ **toBuffer**(): `Buffer`
+▸ **toBuffer**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[script.ts:198](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L198)
+[script.ts:198](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L198)
 
 ___
 
@@ -171,19 +175,19 @@ ___
 
 #### Defined in
 
-[script.ts:202](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L202)
+[script.ts:202](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L202)
 
 ___
 
 ### fromBuffer
 
-▸ `Static` **fromBuffer**(`buf`, `options?`): [`Script`](Script.md)
+▸ **fromBuffer**(`buf`, `options?`): [`Script`](Script.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 | `options` | [`ScriptInitOptions`](../interfaces/ScriptInitOptions.md) |
 
 #### Returns
@@ -192,13 +196,13 @@ ___
 
 #### Defined in
 
-[script.ts:95](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L95)
+[script.ts:95](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L95)
 
 ___
 
 ### fromBufferReader
 
-▸ `Static` **fromBufferReader**(`br`, `options?`): [`Script`](Script.md)
+▸ **fromBufferReader**(`br`, `options?`): [`Script`](Script.md)
 
 #### Parameters
 
@@ -213,13 +217,13 @@ ___
 
 #### Defined in
 
-[script.ts:100](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L100)
+[script.ts:100](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L100)
 
 ___
 
 ### fromHex
 
-▸ `Static` **fromHex**(`hex`): [`Script`](Script.md)
+▸ **fromHex**(`hex`): [`Script`](Script.md)
 
 #### Parameters
 
@@ -233,4 +237,4 @@ ___
 
 #### Defined in
 
-[script.ts:121](https://github.com/kevinejohn/bsv-minimal/blob/master/src/script.ts#L121)
+[script.ts:121](https://github.com/samooth/grs-minimal/blob/master/src/script.ts#L121)

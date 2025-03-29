@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / [utils](../modules/utils.md) / BufferWriter
+[grs-minimal](../README.md) / [utils](../modules/utils.md) / BufferWriter
 
 # Class: BufferWriter
 
@@ -38,7 +38,7 @@
 
 ### constructor
 
-• **new BufferWriter**(`obj?`)
+• **new BufferWriter**(`obj?`): [`BufferWriter`](utils.BufferWriter.md)
 
 #### Parameters
 
@@ -46,9 +46,13 @@
 | :------ | :------ |
 | `obj?` | [`BufferWriterProperties`](../interfaces/utils.BufferWriterProperties.md) |
 
+#### Returns
+
+[`BufferWriter`](utils.BufferWriter.md)
+
 #### Defined in
 
-[utils/writer.ts:9](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L9)
+[utils/writer.ts:9](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L9)
 
 ## Properties
 
@@ -58,31 +62,31 @@
 
 #### Defined in
 
-[utils/writer.ts:7](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L7)
+[utils/writer.ts:7](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L7)
 
 ___
 
 ### bufs
 
-• **bufs**: `Buffer`[]
+• **bufs**: `Buffer`\<`ArrayBufferLike`\>[]
 
 #### Defined in
 
-[utils/writer.ts:6](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L6)
+[utils/writer.ts:6](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L6)
 
 ## Methods
 
 ### concat
 
-▸ **concat**(): `Buffer`
+▸ **concat**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/writer.ts:34](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L34)
+[utils/writer.ts:34](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L34)
 
 ___
 
@@ -102,21 +106,21 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:22](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L22)
+[utils/writer.ts:22](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L22)
 
 ___
 
 ### toBuffer
 
-▸ **toBuffer**(): `Buffer`
+▸ **toBuffer**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/writer.ts:30](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L30)
+[utils/writer.ts:30](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L30)
 
 ___
 
@@ -128,7 +132,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -136,7 +140,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:38](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L38)
+[utils/writer.ts:38](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L38)
 
 ___
 
@@ -156,7 +160,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:77](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L77)
+[utils/writer.ts:77](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L77)
 
 ___
 
@@ -168,7 +172,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -176,7 +180,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:44](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L44)
+[utils/writer.ts:44](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L44)
 
 ___
 
@@ -196,7 +200,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:56](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L56)
+[utils/writer.ts:56](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L56)
 
 ___
 
@@ -216,7 +220,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:63](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L63)
+[utils/writer.ts:63](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L63)
 
 ___
 
@@ -236,7 +240,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:70](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L70)
+[utils/writer.ts:70](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L70)
 
 ___
 
@@ -256,7 +260,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:84](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L84)
+[utils/writer.ts:84](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L84)
 
 ___
 
@@ -276,7 +280,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:91](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L91)
+[utils/writer.ts:91](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L91)
 
 ___
 
@@ -296,7 +300,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:98](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L98)
+[utils/writer.ts:98](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L98)
 
 ___
 
@@ -316,7 +320,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:49](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L49)
+[utils/writer.ts:49](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L49)
 
 ___
 
@@ -328,7 +332,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -336,7 +340,7 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:111](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L111)
+[utils/writer.ts:111](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L111)
 
 ___
 
@@ -356,13 +360,13 @@ ___
 
 #### Defined in
 
-[utils/writer.ts:105](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L105)
+[utils/writer.ts:105](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L105)
 
 ___
 
 ### varintBufNum
 
-▸ `Static` **varintBufNum**(`n`): `Buffer`
+▸ **varintBufNum**(`n`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -372,8 +376,8 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/writer.ts:118](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L118)
+[utils/writer.ts:118](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L118)

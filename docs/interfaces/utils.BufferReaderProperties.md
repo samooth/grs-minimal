@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / [utils](../modules/utils.md) / BufferReaderProperties
+[grs-minimal](../README.md) / [utils](../modules/utils.md) / BufferReaderProperties
 
 # Interface: BufferReaderProperties
 
@@ -15,11 +15,11 @@
 
 ### buf
 
-• **buf**: `Buffer`
+• **buf**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[utils/reader.ts:4](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L4)
+[utils/reader.ts:4](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L4)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[utils/reader.ts:5](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader.ts#L5)
+[utils/reader.ts:5](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader.ts#L5)

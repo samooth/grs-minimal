@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / [utils](../modules/utils.md) / BufferWriterProperties
+[grs-minimal](../README.md) / [utils](../modules/utils.md) / BufferWriterProperties
 
 # Interface: BufferWriterProperties
 
@@ -14,8 +14,8 @@
 
 ### bufs
 
-• `Optional` **bufs**: `Buffer`[]
+• `Optional` **bufs**: `Buffer`\<`ArrayBufferLike`\>[]
 
 #### Defined in
 
-[utils/writer.ts:2](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/writer.ts#L2)
+[utils/writer.ts:2](https://github.com/samooth/grs-minimal/blob/master/src/utils/writer.ts#L2)

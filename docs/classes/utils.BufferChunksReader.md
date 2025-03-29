@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / [utils](../modules/utils.md) / BufferChunksReader
+[grs-minimal](../README.md) / [utils](../modules/utils.md) / BufferChunksReader
 
 # Class: BufferChunksReader
 
@@ -48,17 +48,21 @@
 
 ### constructor
 
-• **new BufferChunksReader**(`bufs`)
+• **new BufferChunksReader**(`bufs`): [`BufferChunksReader`](utils.BufferChunksReader.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `bufs` | `Buffer` \| `Buffer`[] |
+| `bufs` | `Buffer`\<`ArrayBufferLike`\> \| `Buffer`\<`ArrayBufferLike`\>[] |
+
+#### Returns
+
+[`BufferChunksReader`](utils.BufferChunksReader.md)
 
 #### Defined in
 
-[utils/reader_chunks.ts:10](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L10)
+[utils/reader_chunks.ts:10](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L10)
 
 ## Properties
 
@@ -68,7 +72,7 @@
 
 #### Defined in
 
-[utils/reader_chunks.ts:6](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L6)
+[utils/reader_chunks.ts:6](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L6)
 
 ___
 
@@ -78,17 +82,17 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:7](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L7)
+[utils/reader_chunks.ts:7](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L7)
 
 ___
 
 ### bufs
 
-• **bufs**: `Buffer`[]
+• **bufs**: `Buffer`\<`ArrayBufferLike`\>[]
 
 #### Defined in
 
-[utils/reader_chunks.ts:4](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L4)
+[utils/reader_chunks.ts:4](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L4)
 
 ___
 
@@ -98,7 +102,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:8](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L8)
+[utils/reader_chunks.ts:8](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L8)
 
 ___
 
@@ -108,7 +112,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:5](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L5)
+[utils/reader_chunks.ts:5](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L5)
 
 ## Methods
 
@@ -120,7 +124,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 
 #### Returns
 
@@ -128,7 +132,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:22](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L22)
+[utils/reader_chunks.ts:22](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L22)
 
 ___
 
@@ -142,7 +146,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:27](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L27)
+[utils/reader_chunks.ts:27](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L27)
 
 ___
 
@@ -156,13 +160,13 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:31](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L31)
+[utils/reader_chunks.ts:31](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L31)
 
 ___
 
 ### read
 
-▸ **read**(`len`, `noBuf?`): `Buffer`
+▸ **read**(`len`, `noBuf?`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -173,25 +177,25 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader_chunks.ts:35](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L35)
+[utils/reader_chunks.ts:35](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L35)
 
 ___
 
 ### readAll
 
-▸ **readAll**(): `Buffer`
+▸ **readAll**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader_chunks.ts:100](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L100)
+[utils/reader_chunks.ts:100](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L100)
 
 ___
 
@@ -205,7 +209,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:145](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L145)
+[utils/reader_chunks.ts:145](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L145)
 
 ___
 
@@ -219,7 +223,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:150](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L150)
+[utils/reader_chunks.ts:150](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L150)
 
 ___
 
@@ -233,13 +237,13 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:130](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L130)
+[utils/reader_chunks.ts:130](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L130)
 
 ___
 
 ### readReverse
 
-▸ **readReverse**(`len`): `Buffer`
+▸ **readReverse**(`len`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -249,11 +253,11 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader_chunks.ts:202](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L202)
+[utils/reader_chunks.ts:202](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L202)
 
 ___
 
@@ -267,7 +271,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:110](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L110)
+[utils/reader_chunks.ts:110](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L110)
 
 ___
 
@@ -281,7 +285,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:115](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L115)
+[utils/reader_chunks.ts:115](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L115)
 
 ___
 
@@ -295,7 +299,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:120](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L120)
+[utils/reader_chunks.ts:120](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L120)
 
 ___
 
@@ -309,7 +313,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:125](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L125)
+[utils/reader_chunks.ts:125](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L125)
 
 ___
 
@@ -323,7 +327,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:135](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L135)
+[utils/reader_chunks.ts:135](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L135)
 
 ___
 
@@ -337,7 +341,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:155](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L155)
+[utils/reader_chunks.ts:155](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L155)
 
 ___
 
@@ -351,7 +355,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:140](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L140)
+[utils/reader_chunks.ts:140](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L140)
 
 ___
 
@@ -365,7 +369,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:160](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L160)
+[utils/reader_chunks.ts:160](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L160)
 
 ___
 
@@ -379,21 +383,21 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:105](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L105)
+[utils/reader_chunks.ts:105](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L105)
 
 ___
 
 ### readVarLengthBuffer
 
-▸ **readVarLengthBuffer**(): `Buffer`
+▸ **readVarLengthBuffer**(): `Buffer`\<`ArrayBuffer`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader_chunks.ts:185](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L185)
+[utils/reader_chunks.ts:185](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L185)
 
 ___
 
@@ -407,7 +411,7 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:165](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L165)
+[utils/reader_chunks.ts:165](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L165)
 
 ___
 
@@ -427,13 +431,13 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:64](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L64)
+[utils/reader_chunks.ts:64](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L64)
 
 ___
 
 ### slice
 
-▸ **slice**(`i`, `j`): `Buffer`
+▸ **slice**(`i`, `j`): `Buffer`\<`ArrayBuffer`\>
 
 #### Parameters
 
@@ -444,11 +448,11 @@ ___
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBuffer`\>
 
 #### Defined in
 
-[utils/reader_chunks.ts:86](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L86)
+[utils/reader_chunks.ts:86](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L86)
 
 ___
 
@@ -462,4 +466,4 @@ ___
 
 #### Defined in
 
-[utils/reader_chunks.ts:207](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/reader_chunks.ts#L207)
+[utils/reader_chunks.ts:207](https://github.com/samooth/grs-minimal/blob/master/src/utils/reader_chunks.ts#L207)

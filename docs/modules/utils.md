@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / utils
+[grs-minimal](../README.md) / utils
 
 # Namespace: utils
 
@@ -31,12 +31,12 @@
 
 | Name | Type |
 | :------ | :------ |
-| `decode` | (`source`: `string`) => `Buffer` |
-| `encode` | (`source`: `Buffer`) => `string` |
+| `decode` | (`source`: `string`) => `Buffer`\<`ArrayBuffer`\> |
+| `encode` | (`source`: `Buffer`\<`ArrayBufferLike`\>) => `string` |
 
 #### Defined in
 
-[utils/base58.ts:121](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/base58.ts#L121)
+[utils/base58.ts:121](https://github.com/samooth/grs-minimal/blob/master/src/utils/base58.ts#L121)
 
 ___
 
@@ -48,14 +48,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `ripemd160` | (`buf`: `Buffer`) => `Buffer` |
-| `sha256` | (`buf`: `Buffer`) => `Buffer` |
-| `sha256ripemd160` | (`buf`: `Buffer`) => `Buffer` |
-| `sha256sha256` | (`buf`: `Buffer`) => `Buffer` |
+| `grs512` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBuffer`\> |
+| `grs512d` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBuffer`\> |
+| `ripemd160` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBufferLike`\> |
+| `sha256` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBufferLike`\> |
+| `sha256ripemd160` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBufferLike`\> |
+| `sha256sha256` | (`buf`: `Buffer`\<`ArrayBufferLike`\>) => `Buffer`\<`ArrayBufferLike`\> |
 
 #### Defined in
 
-[utils/hash.ts:19](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/hash.ts#L19)
+[utils/hash.ts:27](https://github.com/samooth/grs-minimal/blob/master/src/utils/hash.ts#L27)
 
 ___
 
@@ -188,4 +190,4 @@ ___
 
 #### Defined in
 
-[utils/opcode.ts:1](https://github.com/kevinejohn/bsv-minimal/blob/master/src/utils/opcode.ts#L1)
+[utils/opcode.ts:1](https://github.com/samooth/grs-minimal/blob/master/src/utils/opcode.ts#L1)

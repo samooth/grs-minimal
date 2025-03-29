@@ -1,4 +1,4 @@
-[bsv-minimal](../README.md) / Transaction
+[grs-minimal](../README.md) / Transaction
 
 # Class: Transaction
 
@@ -47,7 +47,7 @@
 
 ### constructor
 
-• `Private` **new Transaction**(`br`, `options?`)
+• **new Transaction**(`br`, `options?`): [`Transaction`](Transaction.md)
 
 #### Parameters
 
@@ -56,9 +56,13 @@
 | `br` | [`BufferReader`](utils.BufferReader.md) \| [`BufferChunksReader`](utils.BufferChunksReader.md) |
 | `options?` | `TransactionOptions` |
 
+#### Returns
+
+[`Transaction`](Transaction.md)
+
 #### Defined in
 
-[transaction.ts:44](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L44)
+[transaction.ts:44](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L44)
 
 ## Properties
 
@@ -68,7 +72,7 @@
 
 #### Defined in
 
-[transaction.ts:37](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L37)
+[transaction.ts:37](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L37)
 
 ___
 
@@ -78,37 +82,37 @@ ___
 
 #### Defined in
 
-[transaction.ts:28](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L28)
+[transaction.ts:28](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L28)
 
 ___
 
 ### buffer
 
-• **buffer**: `Buffer`
+• **buffer**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:38](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L38)
+[transaction.ts:38](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L38)
 
 ___
 
 ### bufferTx
 
-• `Optional` **bufferTx**: `Buffer`
+• `Optional` **bufferTx**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:39](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L39)
+[transaction.ts:39](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L39)
 
 ___
 
 ### hash
 
-• `Optional` **hash**: `Buffer`
+• `Optional` **hash**: `Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:40](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L40)
+[transaction.ts:40](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L40)
 
 ___
 
@@ -118,7 +122,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:31](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L31)
+[transaction.ts:31](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L31)
 
 ___
 
@@ -128,7 +132,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:42](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L42)
+[transaction.ts:42](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L42)
 
 ___
 
@@ -138,7 +142,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:36](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L36)
+[transaction.ts:36](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L36)
 
 ___
 
@@ -148,7 +152,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:32](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L32)
+[transaction.ts:32](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L32)
 
 ___
 
@@ -158,7 +162,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:29](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L29)
+[transaction.ts:29](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L29)
 
 ___
 
@@ -168,7 +172,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:30](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L30)
+[transaction.ts:30](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L30)
 
 ___
 
@@ -178,7 +182,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:34](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L34)
+[transaction.ts:34](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L34)
 
 ___
 
@@ -188,7 +192,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:35](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L35)
+[transaction.ts:35](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L35)
 
 ___
 
@@ -198,7 +202,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:41](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L41)
+[transaction.ts:41](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L41)
 
 ___
 
@@ -208,13 +212,13 @@ ___
 
 #### Defined in
 
-[transaction.ts:33](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L33)
+[transaction.ts:33](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L33)
 
 ## Methods
 
 ### getBitcoms
 
-▸ **getBitcoms**(`options?`): `Set`<`string`\>
+▸ **getBitcoms**(`options?`): `Set`\<`string`\>
 
 #### Parameters
 
@@ -224,11 +228,11 @@ ___
 
 #### Returns
 
-`Set`<`string`\>
+`Set`\<`string`\>
 
 #### Defined in
 
-[transaction.ts:222](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L222)
+[transaction.ts:222](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L222)
 
 ___
 
@@ -242,27 +246,27 @@ ___
 
 #### Defined in
 
-[transaction.ts:233](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L233)
+[transaction.ts:233](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L233)
 
 ___
 
 ### getHash
 
-▸ **getHash**(): `Buffer`
+▸ **getHash**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:158](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L158)
+[transaction.ts:158](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L158)
 
 ___
 
 ### getOpReturns
 
-▸ **getOpReturns**(`options?`): [`number`, `Buffer`[][]][]
+▸ **getOpReturns**(`options?`): [`number`, `Buffer`\<`ArrayBufferLike`\>[][]][]
 
 #### Parameters
 
@@ -273,11 +277,11 @@ ___
 
 #### Returns
 
-[`number`, `Buffer`[][]][]
+[`number`, `Buffer`\<`ArrayBufferLike`\>[][]][]
 
 #### Defined in
 
-[transaction.ts:200](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L200)
+[transaction.ts:200](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L200)
 
 ___
 
@@ -297,7 +301,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:187](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L187)
+[transaction.ts:187](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L187)
 
 ___
 
@@ -311,7 +315,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:171](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L171)
+[transaction.ts:171](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L171)
 
 ___
 
@@ -325,7 +329,7 @@ ___
 
 #### Defined in
 
-[transaction.ts:178](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L178)
+[transaction.ts:178](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L178)
 
 ___
 
@@ -346,21 +350,21 @@ ___
 
 #### Defined in
 
-[transaction.ts:210](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L210)
+[transaction.ts:210](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L210)
 
 ___
 
 ### toBuffer
 
-▸ **toBuffer**(): `Buffer`
+▸ **toBuffer**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:150](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L150)
+[transaction.ts:150](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L150)
 
 ___
 
@@ -374,33 +378,33 @@ ___
 
 #### Defined in
 
-[transaction.ts:154](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L154)
+[transaction.ts:154](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L154)
 
 ___
 
 ### toTxBuffer
 
-▸ **toTxBuffer**(): `Buffer`
+▸ **toTxBuffer**(): `Buffer`\<`ArrayBufferLike`\>
 
 #### Returns
 
-`Buffer`
+`Buffer`\<`ArrayBufferLike`\>
 
 #### Defined in
 
-[transaction.ts:127](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L127)
+[transaction.ts:127](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L127)
 
 ___
 
 ### fromBuffer
 
-▸ `Static` **fromBuffer**(`buf`, `options?`): [`Transaction`](Transaction.md)
+▸ **fromBuffer**(`buf`, `options?`): [`Transaction`](Transaction.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | `Buffer` |
+| `buf` | `Buffer`\<`ArrayBufferLike`\> |
 | `options?` | `TransactionOptions` |
 
 #### Returns
@@ -409,13 +413,13 @@ ___
 
 #### Defined in
 
-[transaction.ts:109](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L109)
+[transaction.ts:109](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L109)
 
 ___
 
 ### fromBufferReader
 
-▸ `Static` **fromBufferReader**(`br`, `options?`): [`Transaction`](Transaction.md)
+▸ **fromBufferReader**(`br`, `options?`): [`Transaction`](Transaction.md)
 
 #### Parameters
 
@@ -430,13 +434,13 @@ ___
 
 #### Defined in
 
-[transaction.ts:114](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L114)
+[transaction.ts:114](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L114)
 
 ___
 
 ### fromHex
 
-▸ `Static` **fromHex**(`txhex`, `options?`): [`Transaction`](Transaction.md)
+▸ **fromHex**(`txhex`, `options?`): [`Transaction`](Transaction.md)
 
 #### Parameters
 
@@ -451,4 +455,4 @@ ___
 
 #### Defined in
 
-[transaction.ts:122](https://github.com/kevinejohn/bsv-minimal/blob/master/src/transaction.ts#L122)
+[transaction.ts:122](https://github.com/samooth/grs-minimal/blob/master/src/transaction.ts#L122)
